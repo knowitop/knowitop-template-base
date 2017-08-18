@@ -20,6 +20,12 @@ interface iObjectTemplate
     public function CreateTargetObject($aParams = array());
 }
 
+interface TemplateInterface {
+//    public static function CreateFromTemplate(\ObjectTemplate $oTemplate);
+
+    public function FillFromTemplate(\ObjectTemplate $oTemplate);
+}
+
 class CreateFromTemplateExtension implements \iPopupMenuExtension
 {
     /**

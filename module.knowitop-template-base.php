@@ -24,7 +24,6 @@ SetupWebPage::AddModule(
 		//
 		'datamodel' => array(
 			'model.knowitop-template-base.php',
-			'main.knowitop-template-base.php'
         ),
 		'webservice' => array(
 			

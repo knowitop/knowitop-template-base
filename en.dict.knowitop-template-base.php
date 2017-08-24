@@ -16,9 +16,15 @@ Dict::Add('EN US', 'English', 'English', array(
     'Class:ObjectTemplate/Attribute:description' => 'Description',
     'Class:ObjectTemplate/Attribute:description+' => 'Description of template',
     'Class:ObjectTemplate/Attribute:status' => 'Status',
+    'Class:ObjectTemplate/Attribute:status+' => 'Status',
     'Class:ObjectTemplate/Attribute:status/Value:inactive' => 'inactive',
     'Class:ObjectTemplate/Attribute:status/Value:active' => 'active',
+    'Class:ObjectTemplate/Attribute:finalclass' => 'finalclass',
+    'Class:ObjectTemplate/Attribute:finalclass+' => '',
 
     'ObjectTemplate:baseinfo' => 'General Information',
     'ObjectTemplate:template' => 'Template',
+
+    'Menu:ObjectTemplate' => 'Object templates',
+    'Menu:ObjectTemplate+' => 'Object templates'
 ));
